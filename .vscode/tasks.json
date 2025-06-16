@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build minichat",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "MiniChat.c",
+        "-o",
+        "MiniChat.exe",
+        "-lws2_32"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
